@@ -29,9 +29,9 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "831859341"))
 PORT = os.environ.get("PORT", "8780")
 
 #Database
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Bewafa:aloksingh@cluster0.qsrsu.mongodb.net/?retryWrites=true&w=majority")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://freefile:freefile@cluster0.qsjgee1.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 JOIN_REQS_DB = environ.get("JOIN_REQS_DB", DB_URI)
-DB_NAME = os.environ.get("DATABASE_NAME", "fair")
+DB_NAME = os.environ.get("DATABASE_NAME", "freefile")
 
 #force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002260861967"))
