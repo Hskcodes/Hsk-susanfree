@@ -19,7 +19,7 @@ async def delete_after_delay(message: Message, delay):
     await message.delete()
 
 import pyrogram.utils
-pyrogram.utils.MIN_CHANNEL_ID = -1009147483647
+pyrogram.utils.MIN_CHANNEL_ID = -1002010997108
 
 @Bot.on_message(filters.command('start') & filters.private & subscribed1 & subscribed2)
 async def start_command(client: Client, message: Message):
